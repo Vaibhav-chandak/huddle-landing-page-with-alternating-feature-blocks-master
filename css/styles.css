@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Media Queries */
 @media (max-width: 768px) {
   .logo-image {
-    width: 12rem;
+    width: 8rem;
   }
 
   .front {
@@ -206,9 +206,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .tryit-btn {
-    padding-right: 10%;
-    padding-left: 10%;
-    font-size: .8rem;
+    padding-right: 7%;
+    padding-left: 7%;
+    font-size: .6rem;
   }
 
   .first-para, .first-heading {
@@ -225,11 +225,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .mockup-image {
     text-align: center;
-    width: 30rem;
+    width: 25rem;
   }
 
   .container {
-    width: 30rem;
+    width: 25rem;
     margin: auto;
     margin-top: 10%;
   }
@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .fifth {
-    width: 30rem;
+    width: 20rem;
     margin-bottom: 60px;
   }
 
