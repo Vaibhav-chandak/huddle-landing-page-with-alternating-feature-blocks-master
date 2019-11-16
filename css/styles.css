@@ -1,0 +1,299 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  /* overflow-x: hidden; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* First Section */
+.first {
+  padding: 5% 10%;
+  font-size: 13px;
+  margin-bottom: 10%;
+  background: url('../images/bg-hero-desktop.svg');
+  background-color: #EDFAFF;
+}
+
+.front {
+  margin-top: 50px;
+}
+
+.front-details {
+  margin-top: 80px;
+}
+
+.first-heading {
+  width: 90%;
+  padding: 3% 0;
+}
+
+.mockup-image {
+  width: 37rem;
+}
+
+.first-para {
+  width: 72%;
+  padding: 3% 0;
+  font-weight: 700;
+}
+
+/* Second, Third and Fourth Section */
+.container {
+  padding: 3% 5%;
+  font-size: 13px;
+  margin: 0 10% 3%;
+  border-radius: 2rem;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+.image {
+  width: 25rem;
+}
+
+.heading {
+  margin-top: 90px;
+  width: 90%;
+  padding: 3% 0;
+}
+
+.para {
+  display: inline-block;
+  font-size: 16px;
+  color: gray;
+}
+
+.fourth {
+  margin-bottom: 0;
+}
+
+/* Fifth Section */
+.fifth {
+  text-align: center;
+  background-color: #fff;
+  width: 45%;
+  padding: 3% 5%;
+  font-size: 13px;
+  margin: 0 auto 3%;
+  border-radius: 2rem;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: 140px;
+}
+
+/* Sixth Section */
+.logo {
+  margin-bottom: 2rem;
+}
+
+.sixth {
+  background-color: #00252F;
+  color: #fff;
+  padding: 15% 5% 5% 7%;
+}
+
+.contact {
+  display: inline-block;
+  padding: 2%;
+  padding-left: 5%;
+}
+
+.contact1 {
+  padding-left: 7%;
+}
+
+.location-img {
+  height: 1.5rem;
+}
+
+.col-lg-4 .info {
+  display: flex;
+}
+
+.about {
+  padding-left: 10%;
+}
+
+.social {
+  margin: 0 3%;
+  padding: 3%;
+  border: 1px;
+  border-style: solid;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.footer {
+  position: relative;
+  top: 50px;
+}
+
+/* Buttons */
+.tryit-btn {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5rem;
+  background: white;
+  color: #FF52C1;
+  padding: 0.2rem 2rem;
+  box-shadow: 0 1px 5px -1px #FF52C1;
+  cursor: pointer;
+  border: solid #FF52C1 .13rem;
+  transition: all .5s;
+  animation: movebottom 1.5s;
+}
+
+.tryit-btn:hover {
+  border: .13rem solid #15C39A;
+  color: #15C39A;
+  box-shadow: 0 1px 5px -1px #15C39A;
+}
+
+.getstarted-btn {
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .2rem;
+  border-radius: 5rem;
+  background: #FF52C1;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  box-shadow: 0 1px 5px -1px #FF52C1;
+  cursor: pointer;
+  border: solid #FF52C1 .13rem;
+  transition: all .7s;
+  margin-top: 1.5rem;
+  animation: movetop 1.5s;
+}
+
+.getstarted-btn:hover {
+  background-color: #15C39A;
+  border: .13rem solid #15C39A;
+  color: #fff;
+  box-shadow: 0 1px 5px -1px #15C39A;
+}
+
+.getstarted-btn {
+  width: 50%;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  .logo-image {
+    width: 12rem;
+  }
+
+  .front {
+    margin: 0;
+  }
+
+  .tryit-btn {
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: .8rem;
+  }
+
+  .first-para, .first-heading {
+    text-align: center;
+    margin: auto;
+  }
+
+  .getstarted-btn {
+    text-align: center;
+    padding: 0;
+    width: 200px;
+    margin: 30px auto;
+  }
+
+  .mockup-image {
+    text-align: center;
+    width: 30rem;
+  }
+
+  .container {
+    width: 30rem;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .first-container {
+    margin-top: 7rem;
+  }
+
+  .heading, .para {
+    text-align: center;
+    margin: auto;
+  }
+
+  .image {
+    padding: 15% 0;
+  }
+
+  .last-heading {
+    font-size: .8rem;
+    margin: 0;
+    padding: 5%;
+  }
+
+  .fifth {
+    width: 30rem;
+    margin-bottom: 60px;
+  }
+
+  .last-button {
+    width: 15rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    margin-top: 100px;
+  }
+
+  .info {
+    display: flex;
+  }
+
+  .last-column {
+    margin-bottom: 20px;
+  }
+
+  .about {
+    padding: 3%;
+    padding-bottom: 0;
+  }
+
+  .social-main {
+    text-align: center;
+    padding: 10%;
+    padding-bottom: 5%;
+  }
+
+  .copyright {
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer {
+    position: relative;
+    top: 20px;
+  }
+}
