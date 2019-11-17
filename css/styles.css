@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .logo-image {
     width: 8rem;
   }
