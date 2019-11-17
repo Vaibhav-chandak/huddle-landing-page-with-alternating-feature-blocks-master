@@ -196,9 +196,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Media Queries */
-@media (max-width: 1000px) {
+@media (max-height: 1000px) {
+  .first {
+    background: url('../images/bg-hero-mobile.svg');
+    background-color: #EDFAFF;
+  }
+
   .logo-image {
-    width: 8rem;
+    width: 10rem;
   }
 
   .front {
@@ -225,11 +230,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .mockup-image {
     text-align: center;
-    width: 25rem;
+    width: 20rem;
   }
 
   .container {
-    width: 25rem;
+    width: 20rem;
     margin: auto;
     margin-top: 10%;
   }
@@ -244,9 +249,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .image {
+    width: 15rem;
     padding: 15% 0;
   }
 
+.center {
+  text-align: center;
+  margin: auto;
+}
   .last-heading {
     font-size: .8rem;
     margin: 0;
